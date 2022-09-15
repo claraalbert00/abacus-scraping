@@ -107,7 +107,6 @@ for p in productes:
     conn.commit()
     i=i+1
 
-
 result = c.execute("SELECT * FROM Productes;")
 for r in result:
     print(r)
